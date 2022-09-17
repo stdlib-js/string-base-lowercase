@@ -37,7 +37,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import lowercase from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-lowercase@esm/index.mjs';
+import lowercase from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-lowercase@v0.0.2-esm/index.mjs';
 ```
 
 #### lowercase( str )
@@ -65,7 +65,7 @@ var str = lowercase( 'bEEp' );
 <body>
 <script type="module">
 
-import lowercase from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-lowercase@esm/index.mjs';
+import lowercase from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-lowercase@v0.0.2-esm/index.mjs';
 
 var str = lowercase( 'Beep' );
 // returns 'beep'
