@@ -37,6 +37,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import lowercase from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-lowercase@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/string-base-lowercase/tags). For example,
+
+```javascript
 import lowercase from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-lowercase@v0.1.1-esm/index.mjs';
 ```
 
@@ -65,7 +70,7 @@ var str = lowercase( 'bEEp' );
 <body>
 <script type="module">
 
-import lowercase from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-lowercase@v0.1.1-esm/index.mjs';
+import lowercase from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-lowercase@esm/index.mjs';
 
 var str = lowercase( 'Beep' );
 // returns 'beep'
